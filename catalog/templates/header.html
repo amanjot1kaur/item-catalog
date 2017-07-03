@@ -1,0 +1,17 @@
+<div class="row app-top-bar top-menu">
+    <div class="col-md-6">
+<!--        <a href="{{url_for('showRestaurants')}}">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All Restaurants
+        </a>
+-->
+        <a href="/#" id="app-logo"><img src="/static/logo-img.png" alt="all recipes"> <span >Food Menu</span></a>
+    </div>
+    <div class="col-md-6 text-right">
+                    {%if 'username' not in session %}
+            <a href="{{url_for('showLogin')}}"> Login </a>
+            {% else %}
+            <a href="{{url_for('disconnect')}}">Logout </a>
+            {% endif %}
+
+    </div>
+</div>

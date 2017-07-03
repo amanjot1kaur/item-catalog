@@ -1,0 +1,3 @@
+https://github.com/lobrown/Full-Stack-Foundations/tree/master/Lesson-3
+https://oauth.net/2/
+https://github.com/udacity/ud330
